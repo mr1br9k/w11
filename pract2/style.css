@@ -1,0 +1,35 @@
+.title {
+  text-align: center;
+}
+
+.title2 {
+  font-style: italic;
+  text-align: right;
+}
+.title3 {
+  text-align: right;
+}
+.items-text {
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+.parag2 {
+  margin-left: 50px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.parag::first-letter {
+  font-weight: bold;
+}
+.items-text:after {
+  content: "";
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 1.2em;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 70%);
+  pointer-events: none;
+}

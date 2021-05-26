@@ -1,0 +1,19 @@
+body {
+     padding: top 0
+              left 30px;
+}
+.simbols { margin-top: 1px;
+    margin-left: 50px;
+    word-spacing: 10px;
+font-size: 80px;}
+.font-red {color:  red;
+size: 15px;
+}
+.font-black  {color: black;
+}
+.card11{
+    width:auto;
+    height: 60px;
+    background: #D4D4D4;
+    }
+ 

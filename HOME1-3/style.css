@@ -1,0 +1,19 @@
+h1 {
+    text-align: center
+}
+h2 {
+    text-align: center
+}
+abbr {border-bottom: 1px dotted black;
+}
+.strtext {font-weight: bold; }
+code {
+    background-color: #C2C2C2;
+    color: red    ;
+}
+.gray {
+    background-color: #C2C2C2;  
+}
+a {
+    background-color: #C2C2C2;  
+}

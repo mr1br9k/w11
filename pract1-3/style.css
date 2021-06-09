@@ -1,0 +1,16 @@
+.centr {
+  text-align: center;
+}
+.form {
+  font-size: 20px;
+  background-color: red;
+  margin-left: 2px;
+}
+.left {
+  margin-left: 0;
+  text-align: left;
+}
+.red {
+  font-style: italic;
+  color: red;
+}

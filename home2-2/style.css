@@ -1,0 +1,31 @@
+body {
+  max-width: 400px;
+  background-color: #ffda73;
+  margin-left: 0px;
+}
+p {
+  font-size: 20px;
+  margin: 0%;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+.blue1 {
+  background-color: #64aad0;
+}
+.blue2 {
+  background-color: #5fbdce;
+}
+
+.blue3 {
+  background-color: #6ee2ed;
+}
+.red1 {
+  display: inline;
+  margin-left: 25px;
+  color: red;
+}
+img {
+  padding-right: 20px;
+}

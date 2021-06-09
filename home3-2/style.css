@@ -1,0 +1,29 @@
+.style1,html {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 60%;}
+
+ol {
+
+  margin: 1em;
+  list-style: none;
+  }
+li {
+    font-size: 50px;}
+
+a {
+  background-color: #FF6B40;
+  border-style: hidden;
+ width: 600px;
+ height: 200px;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  float: left;}
+
+a img { vertical-align: middle;
+}
+a:hover {
+    background-color: #A62500;
+}

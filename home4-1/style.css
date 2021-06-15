@@ -1,0 +1,54 @@
+.kryg {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 5em;
+    border: 3px solid #48d1cc;
+    border-radius: 50%;
+    }
+
+.minutu {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    left: 47px;
+    top: 16px;
+    background: #24C0BA;
+    animation: go 60s infinite steps(60);
+    transform-origin: 0 34px; }
+
+.chas {
+    position: absolute;
+    width: 4px;
+    height: 28px;
+    left: 45px;
+    top: 20px;
+    background: #009B95;
+    animation: go1 3600s infinite steps(3600);
+    transform-origin: 0 29px;}
+
+@keyframes go1 {
+    100%{
+    transform: rotate(360deg);
+    }
+    }
+@keyframes go {100%{transform: rotate(360deg);}}
+
+
+div {
+        position: absolute;
+        font-weight: bold;
+        font-size: 18px;
+        color: #48d1cc;
+        }
+
+
+.centr {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 45px;
+    left: 42px;
+    background: #009B95;
+    }

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;  }
+
+  body {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    perspective: 1000px;
+  }
+
+
+  h1 {
+    position: absolute;
+    display: block;
+color: black;
+    background-color: white;
+    z-index: 0
+  }
+
+
+  .door {border: 5px solid purple;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(180, 58, 180);
+    transition: all 1s;
+    z-index: 5
+  }
+
+  .door_left { transform-origin: left;}
+
+  .door_right {
+    transform-origin: right;
+  }
+
+  .open:hover> .door_left {
+    transform: rotateY(50deg);
+  }
+
+  .open:hover > .door_right {
+    transform: rotateY(-50deg);
+  }

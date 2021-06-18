@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0%;
+}
+.nav-blog {
+  background-color: red;
+  width: 100%;
+  margin-left: -80px;
+}
+.nav-blog a {
+  padding-left: 20px;
+  float: left;
+  width: 17%;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+.block-head {
+  width: 100%;
+}
+
+.block-head li {
+  display: inline-block;
+  text-align: center;
+  width: 10%;
+  height: 40px;
+  color: white;
+  padding-top: 15px;
+
+  text-decoration: none;
+}
+hr {
+  padding: 10%;
+}
+.nav-blog li:hover {
+  background-color: black;
+}

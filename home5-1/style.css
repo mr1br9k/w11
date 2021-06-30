@@ -1,0 +1,36 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
+}
+table {
+  border-collapse: collapse;
+  border: none;
+  width: 1000px;
+
+  text-align: center;
+}
+
+table tr th {
+  background-color: #3c9dd0;
+  position: sticky;
+  top: 0;
+}
+table tr :first-child {
+  position: sticky;
+  left: 0;
+  font-weight: bold;
+  background-color: #3c9dd0;
+}
+table tr th,
+td {
+  height: 30px;
+}
+table tr:nth-child(2n + 2) {
+  background-color: #adadad;
+}
+
+table tr:nth-child(2n + 3) {
+  background-color: #9f9f9f;
+}

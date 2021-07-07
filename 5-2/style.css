@@ -2,11 +2,8 @@
   margin: 0;
   padding: 0;
 }
-body {
-  height: 100%;
-}
+
 .block {
-  height: 100%;
   overflow: hidden;
   position: fixed;
   transition: all 1s linear;
@@ -19,11 +16,15 @@ ol {
   width: 100px;
   list-style: none;
 }
+li {
+  font-size: 10px;
+}
 
 a {
   background-color: #ff6b40;
   border-style: hidden;
   width: 200px;
+  height: 80px;
   color: white;
   text-decoration: none;
   text-align: left;
@@ -56,11 +57,4 @@ h3 {
   padding-left: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.block ol li {
-  padding: auto;
-}
-element.style {
-  height: 100%;
-  background-color: #ff6b40;
 }

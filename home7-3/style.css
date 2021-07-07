@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: aqua;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex:after {
+  content: "";
+  display: table;
+}
+.item {
+  width: calc(100% / 3 - 13px);
+  background-color: #cda;
+  margin: 0 0 10px;
+}
+.sto-pyat {
+  height: 150px;
+}
+.sto {
+  height: 100px;
+}
+.dvtr {
+  height: 230px;
+}
+.dwdw {
+  height: 220px;
+}
+.trpt {
+  height: 350px;
+}
+.item div:nth-child(2n + 1) {
+  background-color: gray;
+}
+.item div:nth-child(2n + 2) {
+  background-color: yellow;
+  height: 150px;
+}

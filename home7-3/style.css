@@ -1,0 +1,151 @@
+*{box-sizing: border-box;
+margin: 0;
+padding:0}
+body {width: 100%; background-color: turquoise; }
+
+.container {margin: 30px;font-size: 18px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30% 30%;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+   width: 100%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "one two three four five";
+  }
+  
+  header {background-color: teal;width: 160%;
+ height: 60px; padding: 20px;color: white; }
+  .one {background-color: rgb(190, 187, 187);
+    padding: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 20px;
+
+    grid-auto-flow: row;
+    grid-template-areas:
+      "one1"
+      "one2"
+      "one3"
+      "one4";
+    grid-area: one;
+  }
+  .one div:nth-child(n+2) {background-color: white; margin-left: 4%; margin-right: 4%; width: 90%;text-align: center;}
+
+p {padding-left: 5px;}
+
+.one-check {display: flex;justify-content: space-between; flex-wrap: nowrap;align-items: flex-end;}
+  .one1 { grid-area: one1; padding: 20px; }
+  
+  .one2 { grid-area: one2; }
+  
+  .one3 { grid-area: one3; }
+  
+  .one4 { grid-area: one4; }
+  
+  .two {background-color: rgb(190, 187, 187);
+    padding: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20% 20% 20% 20%;
+    gap: 20px 20px;
+    overflow: scroll;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "two1"
+      "two2"
+      "two3"
+      "two4"
+      "two5"
+      "two6"
+      "two7";
+    grid-area: two;
+  }
+  .two div:nth-child(n+2) {background-color: white; margin-left: 4%; margin-right: 4%;  width: 90%;text-align: center;}
+  .two1 { grid-area: two1; padding: 20px;  }
+  
+  .two2 { grid-area: two2; }
+  
+  .two3 { grid-area: two3; }
+  
+  .two4 { grid-area: two4; }
+  
+  .two5 { grid-area: two5; }
+  
+  .two6 { grid-area: two6; }
+  
+  .two7 { grid-area: two7;}
+  
+  .three {background-color: rgb(190, 187, 187);
+    display: grid;
+    padding: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "three1"
+      "three2"
+      "three3"
+      "three4";
+    grid-area: three;
+  }
+  .three div:nth-child(n+2) {background-color: white; margin-left: 4%; margin-right: 4%; width: 90%;text-align: center;}
+  .three1 { grid-area: three1;  padding: 20px; }
+  
+  .three2 { grid-area: three2; }
+  
+  .three3 { grid-area: three3; }
+  
+  .three4 { grid-area: three4; }
+  
+  .four {background-color: rgb(190, 187, 187);
+    display: grid;
+    padding: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "four1"
+      "four2"
+      "four3"
+      "four4";
+    grid-area: four;
+  }
+  .four div:nth-child(n+2) {background-color: white; margin-left: 4%; margin-right: 4%; width: 90%;text-align: center;}
+  .four1 { grid-area: four1; padding: 20px;  }
+  
+  .four2 { grid-area: four2; }
+  
+  .four3 { grid-area: four3; }
+  
+  .four4 { grid-area: four4; }
+  
+  .five {background-color: rgb(190, 187, 187);
+    display: grid;
+    padding: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "five1"
+      "five2"
+      "five3"
+      "five4";
+    grid-area: five;
+  }
+  .five div:nth-child(n+2) {background-color: white; margin-left: 4%; margin-right: 4%; width: 90%;text-align: center;}
+  .five1 { grid-area: five1; padding: 20px;  }
+  
+  .five2 { grid-area: five2; }
+  
+  .five3 { grid-area: five3; }
+  
+  .five4 { grid-area: five4; }
+
+.check{display: flex;}
+.check :first-child{padding-right: 10px;}
+.check :nth-child(2n+1){padding-right: 10px;}

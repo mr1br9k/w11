@@ -1,46 +1,136 @@
-* {
-  box-sizing: border-box;
-}
+*{box-sizing: border-box;
+margin: 0;
+padding:0}
+body {width: 100%; height: 100%;}
 
-body {
-  margin: 0;
-  background-color: aqua;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.flex:after {
-  content: "";
-  display: table;
-}
-.item {
-  width: calc(100% / 3 - 13px);
-  background-color: #cda;
-  margin: 0 0 10px;
-}
-.sto-pyat {
-  height: 150px;
-}
-.sto {
-  height: 100px;
-}
-.dvtr {
-  height: 230px;
-}
-.dwdw {
-  height: 220px;
-}
-.trpt {
-  height: 350px;
-}
-.item div:nth-child(2n + 1) {
-  background-color: gray;
-}
-.item div:nth-child(2n + 2) {
-  background-color: yellow;
-  height: 150px;
-}
+.container {
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30% 30%;
+    grid-template-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "one two three four five";
+  }
+  
+  .one {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "one1"
+      "one2"
+      "one3"
+      "one4";
+    grid-area: one;
+  }
+  .one div {display: flex;
+flex-direction: column;
+align-content: center;}
+.one-check {display: flex;justify-content: space-between; flex-wrap: nowrap;align-items: flex-end;}
+  .one1 { grid-area: one1; }
+  
+  .one2 { grid-area: one2; }
+  
+  .one3 { grid-area: one3; }
+  
+  .one4 { grid-area: one4; }
+  
+  .two {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20% 20% 20% 20%;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "two1"
+      "two2"
+      "two3"
+      "two4"
+      "two5"
+      "two6"
+      "two7";
+    grid-area: two;
+  }
+  
+  .two1 { grid-area: two1; }
+  
+  .two2 { grid-area: two2; }
+  
+  .two3 { grid-area: two3; }
+  
+  .two4 { grid-area: two4; }
+  
+  .two5 { grid-area: two5; }
+  
+  .two6 { grid-area: two6; }
+  
+  .two7 { grid-area: two7; }
+  
+  .three {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "three1"
+      "three2"
+      "three3"
+      "three4";
+    grid-area: three;
+  }
+  
+  .three1 { grid-area: three1; }
+  
+  .three2 { grid-area: three2; }
+  
+  .three3 { grid-area: three3; }
+  
+  .three4 { grid-area: three4; }
+  
+  .four {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "four1"
+      "four2"
+      "four3"
+      "four4";
+    grid-area: four;
+  }
+  
+  .four1 { grid-area: four1; }
+  
+  .four2 { grid-area: four2; }
+  
+  .four3 { grid-area: four3; }
+  
+  .four4 { grid-area: four4; }
+  
+  .five {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 20% 20% 20%;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "five1"
+      "five2"
+      "five3"
+      "five4";
+    grid-area: five;
+  }
+  
+  .five1 { grid-area: five1; }
+  
+  .five2 { grid-area: five2; }
+  
+  .five3 { grid-area: five3; }
+  
+  .five4 { grid-area: five4; }

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Dakota", inherit;
+ }
+ main{display: flex;flex-wrap: wrap; justify-content: space-evenly;
+  width: 100%;}
+.one-column {
+  width: 45%;
+}
+.two-column {
+  width: 30%;
+}
+.inline-block {display: flex; justify-content: space-between;}
+
+.programming {
+  width: 100%;
+  height: 120px;border: 1px solid rgba(0,0,0,.125);
+ }
+
+.meeting {
+  width: 100%;
+  height: 150px;
+  border: 1px solid gray;
+}
+.button-black {
+  background-color: gray;
+  color: white;
+  width: 550px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.dakota {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 22px;
+}
+h4 {height: 40px; text-align: center;}
+
+.mb-3 {margin-top: -1rem}
+.button-white{
+  background-color: wheat;
+  color: black;
+  width: 450px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 17px;
+}

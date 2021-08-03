@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+  margin: 0; 
+}
+html {margin: 0;
+  width: 100%;
+  
+}
+body {
+  font-family: "Segoe UI";
+  width: 100%;
+  height: 100%;
+}
+.large-word {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.padding-word {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.gray-text {
+  padding-top: 10px;
+  color: gray;
+  padding-right: 30px;
+}
+
+.small-info { display: flex;
+  margin-bottom: 3%;
+
+ flex-wrap: wrap;
+ align-content: space-between;
+ margin-right: auto;
+ margin-left: auto;
+  background-color: royalblue;
+  width: 21%;
+  height: 120px;
+}
+.small-info-top {
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.small-info hr {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: gray;
+}
+
+.use-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.use-info p:first-child {
+  font-size: 12px;
+}
+.use-info p:nth-child(2) {
+  font-size: 22px;
+}
+.img-off-box {display: flex;
+  margin-top: -20px;
+  padding: 10px;
+}
+.graphics {
+  width:90%;
+  height: 200px;
+  margin-top: -20px;
+  padding: 20px;
+  margin-left: 5%;
+  background-color: yellowgreen;
+}
+.bg-blue {
+  background-color: royalblue;
+}
+
+.large-info {display: flex;
+  margin-bottom: 3%;
+
+ flex-wrap: wrap;
+ align-content: space-between;
+ margin-right: auto;
+ margin-left: auto;
+  
+  background-color: peru;
+  flex-direction: column;
+  width: 29%;
+  height: 250px;
+}
+
+.table-info {
+  display: flex;
+  margin-bottom: 3%;
+ flex-wrap: wrap;
+  margin-right: auto;
+ margin-left: auto;
+  background-color: red;
+  width: 46%;
+  height: 350px;
+  justify-content: space-between;
+}
+.main-object {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 200px);
+}
+.alert-img {
+  width: 15px;
+  height: 15px;
+ margin-right: 10px;
+}
+.alert-text {
+  font-size: 12px;
+  color: gray;
+  display: flex;
+}
+.frames {
+  margin: auto;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 1%;
+}
+.dashboard-img {
+  padding-left: 3%;
+  display: none;
+}
+
+.nav-block {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.nav-bar {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  list-style-type: none;
+}
+.nav-bar li {
+  display: flex;
+  align-items: center;
+ 
+}
+.nav-bar li:hover {
+  background-color: red;
+}
+
+.nav-bar li:hover .img-svg {
+  display: none;
+}
+.nav-bar li:hover .img-svg-white {
+  display: unset;
+}
+.nav-bar li:hover .text-white {
+  color: white;
+}
+.img-svg-white {
+  display: none;
+}
+
+.nav-bar p {
+  padding-left: 10px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: calc(100%-50px);
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.footer-info-link {
+  width: 50%;
+  display: flex;
+}
+.footer-info-link div {
+  display: flex;
+  padding: 10px 20px 10px 10px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .small-info {display: flex;
+    background-color: royalblue;
+    width: 43.5%;
+    height: 80px;
+  }
+
+  .large-info {
+    background-color: peru;
+    width: 28.5%;
+    height: 150px;
+  }
+  .table-info {
+    background-color: red;
+    width: 90%;
+    height: 170px;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .nav-block {
+    display: none;
+  }
+  .main-object {
+    width: 100%;
+  }
+  .dashboard-img {
+    display: unset;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .nav-block {
+    display: none;
+  }
+  .main-object {
+    width: 100%;
+  }
+  .small-info {
+    background-color: royalblue;
+    width: 45.5%;
+    height: 80px;
+  }
+  .large-info {
+    background-color: peru;
+    width: 93%;
+    height: 250px;
+  }
+  .table-info {
+    background-color: red;
+    width: 93%;
+    height: 250px;
+  }
+  .dashboard-img {
+    display: unset;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 470px;
+  }
+  .nav-block {
+    display: none;
+  }
+  .main-object {
+    width: 100%;
+  }
+  .small-info {
+    background-color: royalblue;
+    width: 93%;
+    height: 80px;
+  }
+  .large-info {
+    background-color: peru;
+    width: 93%;
+    height: 250px;
+  }
+  .table-info {
+    background-color: red;
+    width: 93%;
+    height: 250px;
+  }
+  .dashboard-img {
+    display: unset;
+  }
+}

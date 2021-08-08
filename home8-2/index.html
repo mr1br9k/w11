@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Inputs</h3>
+    <div class="row">
+        <div class="col-30">
+            <input type="text" id="fname" name="firstname" placeholder="Enter some text" disabled:true;>
+          </div>
+          <div class="col-30-valid">
+            <input type="email"  placeholder="valid text"/>
+          </div>
+          <div class="col-30-nonvalid">
+            <input type="email"  placeholder="invalid text"/>
+          </div>
+    </div>
+    <h3>Check boxes</h3>
+    <div class="row"><label class="checkbox-green">
+        <input type="checkbox"/>
+        <div class="checkbox__text">Subscribe</div>
+    </label>
+    
+    <label class="checkbox-red">
+        <input type="checkbox" checked />
+        <div class="checkbox__text-red">Subscribe</div>
+    </label></div>
+    <h3>Text area</h3>
+    <div class="row">
+        <textarea id="subject" name="subject" placeholder="Write something.." style=" width:45%"></textarea>
+      </div>
+</body>
+</html>

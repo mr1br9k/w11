@@ -1,0 +1,98 @@
+.nav-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body {
+  height: 100%;
+}
+main {
+  width: 85%;
+  margin-left: 15%;
+  top: 80px;
+  position: fixed;
+}
+.aside {
+  width: 15%;
+  border: none;
+}
+.row-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 30%;
+  height: 320px;
+  -webkit-box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+  -moz-box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+  box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+}
+.button-edit {
+  width: 220px;
+  height: 40px;
+  border-color: #679ed2;
+  background-color: #679ed2;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.my-friends-cont {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  align-content: flex-start;
+  justify-content: center;
+  width: 30%;
+  height: 400px;
+  -webkit-box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+  -moz-box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+  box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+}
+.my-friends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  padding: 4px;
+  width: 30%;
+  height: 22%;
+  text-align: center;
+}
+.friends {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+.first-column {width: auto; height: 70%;}
+.second-column {
+    width: 55%;
+  height: 95%;
+  
+  margin-left: 28%;
+  top: 80px;
+  position: fixed;
+}
+.right-row {width: 100%;
+height: 30%;
+margin: auto;
+-webkit-box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+-moz-box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);
+box-shadow: 0px 12px 24px 18px rgba(34, 60, 80, 0.25);}
+
+.luella {font-size: 22px; padding-left: 10px;}
+.gray-left {width: 20%; color: gray; padding: 10px;}
+.days {width: 100%; margin-top: 20px;display: flex; flex-wrap: wrap; align-items: center;}
+.blue-right {width: 70%; color: blue;}
+.friends-numbers{display: flex; justify-content: space-around;margin-top: 15px;}
+.friends-numbers div{display: flex;  flex-flow: column nowrap;
+    align-items: center; color: blue;}
+.first-row {display: flex;padding: 20px;flex-wrap: wrap; padding-bottom: 0px; }
+.first-row div { width: 80%;margin: 5px;}
+.second-column div{margin-bottom: 10px;}
+.text {width: 100%;padding-left: 20px; padding-right: 20px;}
+.yealloy-text{color: #FFC040; display: flex; margin-right: 20px;}
+.yealloy-text div{padding-left:10px; padding-top: 5px;}
+.row-end{display: flex;flex-direction: row; flex-wrap: nowrap;margin-left: 20px;}

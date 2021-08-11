@@ -1,0 +1,99 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "person-one text-one ."
+    ". text-two person-two"
+    "person-one1 text-three ."
+    ". text-four person-two1"
+    "person-one2 text-five ."
+    ". text-six person-two2";
+}
+
+.text-one {
+  grid-area: text-one;
+  height: 1fr;
+}
+
+.text-two {
+  grid-area: text-two;
+}
+
+.text-three {
+  grid-area: text-three;
+}
+
+.text-four {
+  grid-area: text-four;
+}
+
+.text-five {
+  grid-area: text-five;
+}
+
+.text-six {
+  grid-area: text-six;
+}
+
+.person-one {
+  grid-area: person-one;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.person-two {
+  grid-area: person-two;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.person-one1 {
+  grid-area: person-one1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.person-two1 {
+  grid-area: person-two1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.person-one2 {
+  grid-area: person-one2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.person-two2 {
+  grid-area: person-two2;
+  display: flex;
+  justify-content: flex-start;
+}
+.container > div {padding-left: 5px;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.gray {
+  color: gray;
+}
+.text-one,
+.text-three,
+.text-five {
+  border-bottom-right-radius: 15px;
+  background-color: #ff7373;
+}
+.text-two,
+.text-four,
+.text-six {
+  border-bottom-left-radius: 15px;
+  background-color: #60b9ce;
+}

@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+.container {
+  padding-bottom: 50px;
+  display: grid;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  align-items: auto;
+  grid-template-areas:
+    "one one one four four four seven seven seven . . ."
+    "one one one four four four seven seven seven . . ."
+    "one one one four four four seven seven seven . . ."
+    "one one one five five five seven seven seven . . ."
+    "two two two five five five eight eight eight . . ."
+    "two two two five five five eight eight eight . . ."
+    "two two two five five five eight eight eight . . ."
+    "three three three five five five eight eight eight . . ."
+    "three three three six six six eight eight eight . . ."
+    "three three three six six six nine nine nine . . ."
+    ". . . six six six nine nine nine . . ."
+    ". . . . . . nine nine nine . . ."
+    ". . . . . . . . . . . .";
+  background-color: rgb(153, 172, 206);
+}
+.container > div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  background-color: white;
+  margin: 20px;
+}
+.one {
+  grid-area: one;
+}
+p {
+  text-align: left;
+  font-size: 24px;
+  padding: 20px;
+}
+.block-100 p:first-child {
+  text-align: center;
+  height: 100px;
+  color: white;
+  background-color: gray;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.block-150 p:first-child {
+  text-align: center;
+  height: 150px;
+  color: white;
+  background-color: gray;
+  padding-top: 60px;
+  font-size: 30px;
+}
+.block-220 p:first-child {
+  text-align: center;
+  height: 220px;
+  color: white;
+  background-color: gray;
+  padding-top: 90px;
+  font-size: 30px;
+}
+.block-230 p:first-child {
+  text-align: center;
+  height: 230px;
+  color: white;
+  background-color: gray;
+  padding-top: 100px;
+  font-size: 30px;
+}
+.block-350 p:first-child {
+  text-align: center;
+  height: 350px;
+  color: white;
+  background-color: gray;
+  padding-top: 160px;
+  font-size: 30px;
+}
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+html,
+body,
+.container {
+  margin: 0;
+}
+p {
+  padding: 10px;
+}

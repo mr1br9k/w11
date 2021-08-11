@@ -1,0 +1,144 @@
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
+.one-column {
+  width: 45%;
+}
+
+.programming {
+  width: 100%;
+  height: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.meeting {
+  width: 100%;
+  height: 150px;
+  border: 1px solid gray;
+}
+.button-black {
+  background-color: gray;
+  color: white;
+  width: 550px;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+}
+.dakota {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 22px;
+}
+h4 {
+  height: 40px;
+  text-align: center;
+}
+
+.mb-3 {
+  margin-top: -1rem;
+}
+
+.my-flex-cont {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  height: 100px;
+}
+.my-flex-box {
+  display: flex;
+  padding: 5px;
+  flex: 0 1 auto;
+}
+.my-flex-box div:first-child {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  height: 25px;
+  border: 1px solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-right-style: none;
+}
+.my-flex-box div:nth-child(2) {
+  margin-top: 9.5px;
+  margin-left: -12px;
+  border: 1px solid;
+  width: 20px;
+  height: 15px;
+  transform: rotate(45deg);
+  border-left-style: none;
+  border-bottom-style: none;
+}
+
+.my-flex-cont2 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  height: 100px;
+}
+.my-flex-box2 {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5px;
+  flex: 0 1 auto;
+}
+.my-flex-box2 div:nth-child(2) {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  height: 25px;
+  border: 1px solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-left-style: none;
+}
+.my-flex-box2 div:first-child {
+  margin-top: 10px;
+  margin-right: -12px;
+  border: 1px solid;
+  width: 20px;
+  height: 15px;
+  transform: rotate(45deg);
+  border-right-style: none;
+  border-top-style: none;
+}
+.my-flex {
+  display: flex;
+}
+
+.my-flex-box3 {
+  display: flex;
+  flex-wrap: nowrap;
+
+  flex: 0 1 auto;
+}
+.my-flex-box3 div:first-child {
+  padding-top: 3px;
+}
+.my-flex-box3:first-child {
+  margin-top: 5px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+}
+.button-white {
+  background-color: wheat;
+  color: black;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+border: none;
+  margin-top: 380px;
+}
